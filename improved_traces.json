@@ -1,0 +1,51 @@
+[
+  {
+    "question": "What is my fee status?",
+    "student_id": "STU001",
+    "tool_used": "check_fee_status",
+    "result": "{'student_id': 'STU001', 'fee_status': 'Paid'}",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "What is my scholarship status?",
+    "student_id": "STU001",
+    "tool_used": "check_scholarship_status",
+    "result": "{'student_id': 'STU001', 'scholarship_status': 'Approved'}",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "What should I do if my fee payment failed?",
+    "student_id": "STU001",
+    "tool_used": "retrieve_policy",
+    "result": "[{'topic': 'Fee Payment', 'content': 'Check the official fee portal for dues. If payment fails, save the transaction reference and contact the accounts office. Confirm the next working day payment rule with the accounts office.'}]",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "What is my fee status?",
+    "student_id": "STU001",
+    "tool_used": "check_fee_status",
+    "result": "{'student_id': 'STU001', 'fee_status': 'Paid'}",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "What is my scholarship status?",
+    "student_id": "STU001",
+    "tool_used": "check_scholarship_status",
+    "result": "{'student_id': 'STU001', 'scholarship_status': 'Approved'}",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "What should I do if my fee payment failed?",
+    "student_id": "STU001",
+    "tool_used": "retrieve_policy",
+    "result": "[{'topic': 'Fee Payment', 'content': 'Check the official fee portal for dues. If payment fails, save the transaction reference and contact the accounts office. Confirm the next working day payment rule with the accounts office.'}]",
+    "latency_seconds": 0.0
+  },
+  {
+    "question": "Tell me a joke",
+    "student_id": "STU001",
+    "tool_used": "none",
+    "result": "I cannot answer this from the available tools. Please contact the program office.",
+    "latency_seconds": 0.0
+  }
+]

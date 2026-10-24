@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is my fee status?",
+    "expected_tool": "check_fee_status",
+    "actual_tool": "check_fee_status",
+    "passed": true
+  },
+  {
+    "question": "What is my scholarship status?",
+    "expected_tool": "check_scholarship_status",
+    "actual_tool": "check_scholarship_status",
+    "passed": true
+  },
+  {
+    "question": "What should I do if my fee payment failed?",
+    "expected_tool": "retrieve_policy",
+    "actual_tool": "retrieve_policy",
+    "passed": true
+  },
+  {
+    "question": "Tell me a joke",
+    "expected_tool": "none",
+    "actual_tool": "none",
+    "passed": true
+  }
+]
