@@ -1,41 +1,39 @@
 # Intelligent Student Support Agent
 
-## Agentic AI Engineering --- Assignment 1
+## About the Project
 
-### Project Overview
+This project is a Student Support Agent created for Assignment 1 of the Agentic AI Engineering course.
 
-A Python-based student support prototype that answers questions about
-fee status, scholarship status, and student policies.
+The main purpose of this project is to help students get answers to common questions about their fees, scholarships, and college policies.
 
-### Features
+## What Does It Do?
 
--   Fee status lookup
--   Scholarship status lookup
--   Student policy retrieval
--   Basic JSON memory
--   Tool routing and trace logging
--   Evaluation results and latency measurement
+- **Fee Status:** Checks whether a student's fees are paid or pending.
+- **Scholarship Status:** Shows the student's scholarship status.
+- **College Policies:** Finds relevant information about college rules and procedures.
+- **Memory:** Saves simple information so it can be used again later.
+- **Activity Tracking:** Records questions, selected tools, and response time.
+- **Testing:** Checks whether the agent selects the correct tool for different questions.
 
-### Technologies
+## Tools and Technologies
 
--   Python
--   Google Colab
--   JSON
--   Pandas
+- Python
+- Google Colab
+- JSON
+- Pandas
 
-### How to Run
+## How to Run the Project
 
-1.  Open the `.ipynb` notebook in Google Colab.
-2.  Run the code cells in order.
-3.  Use the fictional sample IDs: `STU001`, `STU002`, `STU003`.
-4.  Test fee, scholarship, and policy questions.
+1. Open the project notebook in Google Colab.
+2. Run the code cells in order.
+3. Use the sample student IDs provided in the notebook.
+4. Ask questions about fee status, scholarships, and college policies.
+5. Check the evaluation results and agent activity logs.
 
-### Privacy
+## Privacy and Security
 
-Use only fictional sample data. Never upload passwords, API keys, or
-real private student data.
+This project uses sample student records for demonstration. Sensitive information such as passwords and API keys should never be uploaded to GitHub.
 
-### Limitations
+## Project Limitations
 
-The current version uses keyword-based routing and retrieval. Memory
-saved in temporary Colab storage may be lost when the runtime resets.
+This is a prototype that uses keyword-based routing to select tools. Its answers depend on the sample data and policies available in the notebook. It has not yet been verified as a complete production-ready AI agent.
